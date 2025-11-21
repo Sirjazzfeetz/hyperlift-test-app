@@ -1,6 +1,171 @@
 <!DOCTYPE html>
-<html>
-    <body>
-        <p>Hello Hyperlift! Z</p>
-    </body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Maunder - Wealth & Lifestyle</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">MICHAEL MAUNDER</div>
+                <div class="nav-links">
+                    <a href="#philosophy">The Philosophy</a>
+                    <a href="#methodology">The Methodology</a>
+                    <a href="#about">About</a>
+                    <a href="#contact" class="nav-cta">Request Access</a>
+                </div>
+                <div class="audio-controls">
+                    <button id="play-pause-btn">Play Theme</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <div class="hero-content fade-in-up">
+                    <h1>CURATING LEGACY.<br>DEFINING LIFESTYLE.</h1>
+                    <p class="subtitle">Exclusive private investment education and asset protection for the modern
+                        high-achiever.</p>
+                    <a href="#contact" class="cta-button">REQUEST ACCESS</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="philosophy" class="content-section">
+            <div class="container">
+                <span class="section-label">The Philosophy</span>
+                <h2>WEALTH BEYOND CURRENCY</h2>
+                <div class="grid-2">
+                    <div class="text-block fade-in-up delay-1">
+                        <p>True wealth is not merely the accumulation of numbers, but the cultivation of a life lived on
+                            your own terms. We believe in a holistic approach that encompasses financial sovereignty,
+                            social capital, and personal freedom.</p>
+                        <p>In a world of noise, we provide the signal. Our philosophy is rooted in the timeless
+                            principles of asset fortification and the strategic pursuit of the "Good Life" — a state of
+                            being where luxury is a standard, not an aspiration.</p>
+                    </div>
+                    <div class="stat-block fade-in-up delay-2">
+                        <div class="stat">
+                            <span class="number">01</span>
+                            <span class="label">Accumulation</span>
+                        </div>
+                        <div class="stat">
+                            <span class="number">02</span>
+                            <span class="label">Protection</span>
+                        </div>
+                        <div class="stat">
+                            <span class="number">03</span>
+                            <span class="label">Legacy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="methodology" class="content-section alt-bg">
+            <div class="container">
+                <span class="section-label">The Methodology</span>
+                <h2>PRIVATE INVESTMENT EDUCATION</h2>
+                <p class="section-intro">We strip away the complexity of modern finance to reveal the core mechanics of
+                    wealth generation used by the ultra-elite.</p>
+
+                <div class="cards-grid">
+                    <div class="card">
+                        <h3>Private Equity</h3>
+                        <p>Access to off-market opportunities and the knowledge to navigate the private sector with
+                            confidence and precision.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Asset Fortification</h3>
+                        <p>Strategies designed not just to grow wealth, but to make it impervious to market volatility
+                            and external threats.</p>
+                    </div>
+                    <div class="card">
+                        <h3>The Brotherhood</h3>
+                        <p>Join a network of high-value individuals. Your net worth is your network. Align yourself with
+                            those who are forging the path ahead.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="content-section">
+            <div class="container">
+                <div class="split-layout">
+                    <div class="image-side">
+                        <div class="abstract-shape"></div>
+                    </div>
+                    <div class="text-side">
+                        <span class="section-label">About Michael Maunder</span>
+                        <h2>THE ARCHITECT OF WEALTH</h2>
+                        <p>Michael Maunder is more than an educator; he is a curator of lifestyles. With a background
+                            steeped in high-stakes finance and a passion for the finer things in life, Michael bridges
+                            the gap between financial success and living well.</p>
+                        <a href="#contact" class="text-link">Read Full Bio &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section dark-mode-section">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="info-side">
+                        <span class="section-label">Membership</span>
+                        <h2>GET EXCLUSIVE INSIGHTS</h2>
+                        <p>With limited availability, enquire to see if you qualify for our private mentorship and
+                            investment circles.</p>
+                        <ul class="benefits-list">
+                            <li>&check; Weekly Market Analysis</li>
+                            <li>&check; Private Deal Flow</li>
+                            <li>&check; Lifestyle Curation Tips</li>
+                        </ul>
+                    </div>
+                    <form class="luxury-form">
+                        <div class="input-group">
+                            <label>Name</label>
+                            <input type="text" required>
+                        </div>
+                        <div class="input-group">
+                            <label>Email Address</label>
+                            <input type="email" required>
+                        </div>
+                        <button type="submit">Request Invitation</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">MM</div>
+                <p>&copy; 2025 Michael Maunder. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SoundCloud Widget API -->
+    <iframe id="sc-widget" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/402363783&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+    </iframe>
+
+    <script src="https://w.soundcloud.com/player/api.js"></script>
+    <script src="script.js"></script>
+</body>
+
 </html>
