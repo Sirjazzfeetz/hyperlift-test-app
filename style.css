@@ -146,9 +146,10 @@ h1 {
 
 .subtitle {
     font-size: 1.2rem;
-    color: var(--text-muted);
+    color: var(--accent-green); /* Changed from var(--text-muted) */
     margin-bottom: 40px;
     max-width: 450px;
+    font-weight: 500; /* Added for better legibility */
 }
 
 .cta-button {
@@ -657,4 +658,5 @@ footer {
     .hero-content {
         padding: 20px;
     }
+
 }
